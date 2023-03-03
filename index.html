@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="center">
+        <div class="first">
+          <form onsubmit="selectCountry();return false">
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Enter Country Name : "
+            />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+        <div class="second">
+          <table>
+            <tr>
+              <td><img id="flags" /></td>
+              <td><img id="coatOfArms"></td>
+            </tr>
+            <tr>
+              <th>Name</th>
+              <td id="name"></td>
+            </tr>
+            <tr>
+              <th>Capital</th>
+              <td id="capital"></td>
+            </tr>
+            <tr>
+              <th>Borders</th>
+              <td id="borders"></td>
+            </tr>
+            <tr>
+              <th>TimeZone</th>
+              <td id="timezones"></td>
+            </tr>
+            <tr>
+                <th>Area</th>
+                <td id="area"></td>
+              </tr>
+              <tr>
+                <th>Start of Week</th>
+                <td id="startOfWeek"></td>
+              </tr>
+              <th>Region</th>
+                <td id="region"></td>
+              </tr>
+              <th>Population</th>
+                <td id="population"></td>
+              </tr>
+              <th>Map</th>
+                <td><a id="maps">visite here</a></td>
+              </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

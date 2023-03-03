@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+.main {
+  width: 100vw;
+}
+.center {
+  width: 500px;
+  margin: auto;
+}
+.first,
+.second {
+  width: 500px;
+}
+#flags {
+  width: 250px;
+}
+#coatOfArms {
+  width: 200px;
+  height: 200px;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+  background-color: rgb(68, 155, 155);
+}
+tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+input {
+  width: 300px;
+  padding: 3px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+button {
+  width: 165px;
+  padding: 3px;
+  font-size: 18px;
+  cursor: pointer;
+}
